@@ -1,0 +1,26 @@
+{
+  "name": "algorithms-datastructures-javascript",
+  "version": "1.0.0",
+  "description": "A repository where I will document on different solutions to algorithms and data structure problems.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArmandoHerra/algorithms-datastructures-javascript.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Algorithms",
+    "Data",
+    "Structures",
+    "js"
+  ],
+  "author": "Armando Herra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArmandoHerra/algorithms-datastructures-javascript/issues"
+  },
+  "homepage": "https://github.com/ArmandoHerra/algorithms-datastructures-javascript#readme"
+}
