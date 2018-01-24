@@ -15,10 +15,18 @@
 */
 
 function reverseString(str) {
-
+    return str.split('').reduce((rev, char) => char + rev, '');
 }
 
 /* 
+
+    *** ES6 Syntax + Array Helper reduce() ***
+
+    function reverseString(str) {
+        return str.split('').reduce((rev, char) => char + rev, '');
+    }
+
+    *** Traditional style reversing. (No manual iteration) ***
 
     function reverseString(str) {
         let reversed = "";
@@ -27,6 +35,8 @@ function reverseString(str) {
         }
         return reversed;
     }
+
+    *** Using Array and string functions. ***
 
     function reverseString(str) {
         const arr = str.split('');
