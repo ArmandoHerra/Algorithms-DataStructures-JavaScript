@@ -15,13 +15,26 @@
 */
 
 function reverseString(str) {
-    const arr = str.split('');
-    arr.reverse();
-    return arr.join('');
+
 }
 
 /* 
-    *** BONUS: You can also write a shorthand like this:
+
+    function reverseString(str) {
+        let reversed = "";
+        for (let character of str) {
+            reversed = character + reversed;
+        }
+        return reversed;
+    }
+
+    function reverseString(str) {
+        const arr = str.split('');
+        arr.reverse();
+        return arr.join('');
+    }
+
+    *** BONUS ***: You can also write a shorthand like this:
 
     function reverseString(str) {
         return str.split('').reverse().join('');
