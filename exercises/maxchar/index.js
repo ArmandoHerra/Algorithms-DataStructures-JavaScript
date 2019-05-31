@@ -11,9 +11,7 @@ function maxChar(str) {
         k: "",
         v: 0
     }
-    for (let char of str) {
-        charMap[char] = ++charMap[char] || 1
-    }
+    for (let char of str) charMap[char] = ++charMap[char] || 1
     for (let key in charMap) {
         if (charMap[key] > max.v) {
             max.k = key; 
@@ -33,9 +31,7 @@ function maxChar(str) {
             k: "",
             v: 0
         }
-        for (let char of str) {
-            charMap[char] = ++charMap[char] || 1
-        }
+        for (let char of str) charMap[char] = ++charMap[char] || 1
         for (let key in charMap) {
             if (charMap[key] > max.v) {
                 max.k = key; 
