@@ -23,8 +23,49 @@ function chunk(array, size) {
             chunked.push(subArray)
         }
     }
-
     return chunked
 }
+
+/*
+
+    *** Personal Solution ***
+
+    function chunk(array, size) {
+        const chunked = []
+        if (array.length % size != 0) {
+            for (let x = 0; x < array.length % size; x++) {
+                let subArray = array.splice(0, size)
+                chunked.push(subArray)
+            }
+        } else {
+            const it = array.length / size
+            for (let x = 0; x < it; x++) {
+                let subArray = array.splice(0, size)
+                chunked.push(subArray)
+            }
+        }
+        return chunked
+    }
+
+    *** Other Possible Solution ***
+    function chunk(array, size) {
+        const chunked = [];
+        for (let element of array) {
+            const last = chunked[chunked.length - 1]
+            if (!last || last.length === size) {
+                chunked.push([element])
+            } else {
+                last.push(element)
+            }
+        }
+        return chunked
+    }
+
+    *** Other Possible Solution ***
+    function chunk(array, size) {
+        const chunked = []
+        let index = 0
+    }
+*/
 
 module.exports = chunk;
