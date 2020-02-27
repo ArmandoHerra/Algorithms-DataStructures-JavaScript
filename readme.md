@@ -11,7 +11,7 @@ Algorithms that will be covered in this repository.
 -   Anagrams
 -   Sentence Capitalization
 -   Printing Steps
--   Two Sidded Steps - Pyramids
+-   Two Sided Steps - Pyramids
 -   Find The Vowels
 -   Enter the Matrix Spiral
 -   Runtime Complexity (Fibonacci)
