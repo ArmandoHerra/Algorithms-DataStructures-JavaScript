@@ -1,8 +1,10 @@
+os: linux
+dist: bionic
 language: node_js
-version:
-    - "lts/*"
-
-before_script: npm install
+node_js:
+  - lts/*
+install: 
+    - npm install
 
 script: 
     - npm test
