@@ -4,7 +4,7 @@
     "description": "A repository where I will document on different solutions to algorithms and data structure problems.",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "cd exercises && jest"
     },
     "repository": {
         "type": "git",
@@ -25,6 +25,6 @@
     "homepage": "https://github.com/ArmandoHerra/algorithms-datastructures-javascript#readme",
     "dependencies": {},
     "devDependencies": {
-        "jest": "^25.1.0"
+        "jest": "^26.0.1"
     }
 }
